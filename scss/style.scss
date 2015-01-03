@@ -1,0 +1,46 @@
+@import "compass/css3";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  overlfow: hidden;
+  
+    &:hover {
+   #info{
+      display: none; 
+    }
+  }
+}
+
+canvas {
+ cursor: crosshair;
+  position:relative;
+  z-index:0;
+  
+}
+
+#info{
+    font-family: 'Georgia', cursive;
+  font-size: 40px;
+ position: fixed; 
+  top: 50%;
+  left: 50%;
+  color: #000;
+  margin-top: -40px;
+  margin-left: -200px;
+}
+
+/* Alex styles*/
+#menu{
+ position:absolute;
+  z-index:150;
+  top:0;
+  left:0;
+  padding:15px;
+}
+
+#menu a .inner{
+  font-size:12px;
+  opacity:0.8;
+}
